@@ -91,7 +91,7 @@ export default function Derecha() {
       <img
         src={moon}
         alt="background"
-        className="absolute z-50 left-2/4 top-1/3 -translate-x-20  w-80 rounded-full shadow-xl rotate-180"
+        className="absolute  left-2/4 top-1/3 -translate-x-20  w-80 rounded-full shadow-xl rotate-180"
       />
     </div>
   );

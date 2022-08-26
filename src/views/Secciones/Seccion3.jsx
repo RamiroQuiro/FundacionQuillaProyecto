@@ -62,7 +62,7 @@ export default function Seccion3() {
         title="Nuestros Servicios"
         descripcion="casa uno de nuestros tarlleres esta orientado y diseñado para niños con discapacidad y sin discapacidad"
       />
-      <div className="w-full h-5/6  grid grid-cols-3 grid-flow-row gap-y-0 gap-x-8">
+      <div className="w-full h-5/6  grid md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-y-0 gap-x-8">
         {tarjetas?.map((tarjeta, index) => (
           <TarjetaColores
             key={index}
