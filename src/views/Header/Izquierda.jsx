@@ -3,10 +3,11 @@ import Button1 from '../../component/Button1'
 import playSVG from '../../img/play.svg'
 
 export default function Izquierda() {
+
   return (
-    <div className="w-3/6 flex justify-center items-start flex-col">
-          <div className=" w-10/12 text-left border-b-2 mb-5">
-            <h1 className="font-bold text-blue-500 text-7xl my-5">
+    <div className="md:w-3/6 flex justify-center items-start flex-col">
+          <div className=" md:w-10/12 text-left border-b-2 mb-5">
+            <h1 className="font-bold text-blue-500 text-5xl md:text-7xl my-5">
               Fundación Quilla
             </h1>
             <span className='break-words'>
@@ -14,7 +15,7 @@ export default function Izquierda() {
               con discapacidad.
             </span>
           </div>
-          <div className="w-10/12 flex  rounded py-2  intems-center justify-around">
+          <div className="md:w-10/12 flex w-full  rounded py-2  intems-center justify-between md:justify-around">
             <Button1
             text="Contacto"
             link={'/'}

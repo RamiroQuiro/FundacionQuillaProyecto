@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function DescripcionTarjetas({children}) {
+export default function DescripcionTarjetas({children,className}) {
   return (
-    <p className="font-medium text-left text-sm">{children}</p>
+    <p className={`${className} font-medium text-left text-sm`}>{children}</p>
   )
 }

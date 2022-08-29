@@ -14,7 +14,7 @@ export default function Derecha() {
   );
 
   return (
-    <div className="w-3/6 derechaHeader bg-[#18191A] h-full">
+    <div className="md:w-3/6 derechaHeader bg-[#18191A] h-2/3 rounded-3xl md:h-full">
       <Particles
       className="w-full h-full"
         init={particlesInit}
@@ -91,7 +91,7 @@ export default function Derecha() {
       <img
         src={moon}
         alt="background"
-        className="absolute  left-2/4 top-1/3 -translate-x-20  w-80 rounded-full shadow-xl rotate-180"
+        className="absolute inset-1/2  md:left-2/4 md:top-1/3 -translate-x-20 w-40 md:w-80 rounded-full shadow-xl rotate-180"
       />
     </div>
   );

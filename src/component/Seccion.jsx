@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Seccion({children}) {
+export default function Seccion({children,className}) {
   return (
-    <section className="w-full py-10 my-10 h-screen text-gray-700 mx-auto ">
+    <section className={`${className} w-full my-10  text-gray-700 mx-auto `}>
         {children}
     </section>
   )

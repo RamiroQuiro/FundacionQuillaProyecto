@@ -9,9 +9,9 @@ import Seccion3 from "../views/Secciones/Seccion3";
 
 export default function Layout() {
   return (
-    <>
+    <div className="flex flex-col items-center justify-between w-full mx-auto">
     <Header/>
-      <main className="w-10/12 mx-auto font-roboto">
+      <main className="w-11/12 md:w-10/12 flex flex-col mx-auto font-roboto">
     <Seccion1/>
        <Seccion2/>
        <Seccion3/>
@@ -19,6 +19,6 @@ export default function Layout() {
         <Contacto/>
       </main>
      <Footer/>
-    </>
+    </div>
   );
 }

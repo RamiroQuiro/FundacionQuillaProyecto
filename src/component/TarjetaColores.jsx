@@ -9,7 +9,7 @@ export default function TarjetaColores({title,description,boton,link,color}) {
           <div className="w-full flex flex-col text-sm items-start justify-between h-full">
             <TituloTarjetas title={title} />
             <DescripcionTarjetas>{description}</DescripcionTarjetas>
-            <Button2 text={boton} link={link} />
+            <Button2 text={boton} link={link} color={color} />
           </div>
         </div>
   )

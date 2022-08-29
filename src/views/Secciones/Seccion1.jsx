@@ -25,7 +25,9 @@ export default function Seccion1() {
 
 
   return (
-    <Seccion>
+    <Seccion
+    className={"mb-28"}
+    >
       <TituloandDescription
         title="¿Qué es la Fundación Quilla?"
         descripcion="Fundación Quilla es una organización sin fines de lucro que se dedica a la difusión del arte y la cultura, a la educación y a la promoción de la cultura."
