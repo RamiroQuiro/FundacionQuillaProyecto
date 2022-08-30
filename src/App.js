@@ -4,6 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 import Layout from "./layout/Layout";
+import Seccion1 from "./views/Secciones/Seccion1";
 
 
 function App() {

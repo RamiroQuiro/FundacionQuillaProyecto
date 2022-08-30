@@ -53,7 +53,7 @@ export default function Preguntas() {
   ];
 
   return (
-    <Seccion>
+    <Seccion className={"min-h-screen"}>
       <TituloandDescription
         title={"Preguntas Frecuentes"}
         descripcion={
