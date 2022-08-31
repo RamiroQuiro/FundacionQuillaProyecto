@@ -2,12 +2,26 @@ import React from 'react'
 import Button1 from '../../component/Button1'
 import Seccion from '../../component/Seccion'
 import image1 from '../../img/imageQuilla.jpg'
+import svg1 from '../../img/triangle.svg'
+import line from '../../img/line-curve.svg'
+import rounded from '../../img/rounded-line.svg'
 
 export default function Seccion2() {
   return (
     <Seccion
-        className={"py-10 md:h-screen items-center"}
+    id={"funcion"}
+        className={"py-10 md:h-screen relative items-center"}
     >
+        <div className='-rotate-45 absolute z-30 left-20 -top-52 '>
+        <img src={rounded} alt="" className=' w-28 fill-red-500' />
+        </div>
+        <div className='-rotate-12 absolute z-30 left-1/2 -top-28 '>
+        <img src={line} alt="" className=' w-28 ' />
+        </div>
+        <div className='rotate-45 absolute z-30 -top-0 -right-10'>
+        <img src={svg1} alt="" className=' w-28 ' />
+        </div>
+        
         <div className='bg-neutral-900 rounded-3xl -skew-x-2 flex md:flex-row flex-col-reverse gap-5 lg:h-4/6 h-auto md:p-0 px-5 py-10'>
             <div className='md:w-2/6 w-full relative h-1/4 md:h-auto mx-auto '>
                 <div className='md:absolute top-0 left-0 w-full md:h-full flex justify-center items-center'>
@@ -27,6 +41,12 @@ export default function Seccion2() {
             link={'/'}
             />
             </div>
+            <div className='rotate-45 absolute z-30 -bottom-36 left-2/3'>
+        <img src={rounded} alt="" className=' w-28 ' />
+        </div>
+        <div className='rotate-45 absolute z-30 -bottom-52  left-1/4 '>
+        <img src={line} alt="" className=' w-28 ' />
+        </div>
         </div>
     </Seccion>
   )

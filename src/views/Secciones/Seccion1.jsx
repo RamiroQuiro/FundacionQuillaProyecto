@@ -27,8 +27,8 @@ export default function Seccion1() {
 
   return (
     <Seccion
-    id="queeslafundacion"
-    className={"mb-28 md:h-screen scroll-mt-5 "}
+    id="fundacionquilla"
+    className={"mb-28 md:h-screen  "}
     >
       <TituloandDescription
         title="¿Qué es la Fundación Quilla?"

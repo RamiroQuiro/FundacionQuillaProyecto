@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="px-3 w-full py-8 bg-gray-800 text-2 text-gray-500 dark:text-gray-200 transition-colors duration-200">
+    <footer class="px-3 w-full md:h-96  mt-10 pt-52 bg-gradient-to-bl from-rose-400  to-blue-500  text-2  text-gray-200 transition-colors duration-200 relative">
+       <div className="w-full fill-white align-baseline rotate-180 absolute top-0 left-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" class="injected-svg svg-inject">
+    <path d="M 0 0 c 0 0 200 50 500 50 s 500 -50 500 -50 v 101 h -1000 v -100 z"></path>
+</svg>
+      </div>
       <div class="flex flex-col">
         <div class="md:hidden mt-7 mx-auto w-11 h-px rounded-full"></div>
         <div class="mt-4 md:mt-0 flex flex-col md:flex-row">

@@ -9,9 +9,10 @@ import { Link } from "react-router-dom";
 export default function Contacto() {
   return (
     <Seccion
+    id="contacto"
       className={"flex flex-wrap md:flex-nowrap md:gap-5 w-full items-stretch justify-between"}
     >
-      <div className="flex flex-col flex-auto items-center justify-around border-2 border-neutral-700 p-5 rounded-lg mx-auto md:w-6/12 skew-x-1 md:skew-x-3">
+      <div className="flex flex-col flex-auto items-center justify-around border-2 border-neutral-700 p-5 rounded-lg mx-auto md:w-6/12 skew-x-1 md:skew-x-2">
         <TituloandDescription
           className={"md:w-full"}
           classNameTitle={"text-3xl text-left w-full"}

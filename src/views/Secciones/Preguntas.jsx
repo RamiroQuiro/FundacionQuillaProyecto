@@ -53,7 +53,7 @@ export default function Preguntas() {
   ];
 
   return (
-    <Seccion className={"min-h-screen"}>
+    <Seccion id="preguntas" className={"min-h-screen"}>
       <TituloandDescription
         title={"Preguntas Frecuentes"}
         descripcion={
@@ -62,7 +62,7 @@ export default function Preguntas() {
         key={3}
       />
 
-      <div className="flex flex-wrap w-full items-center justify-start gap-4 my-5 p-5 duration-300">
+      <div className="flex flex-wrap w-full items-start justify-start gap-4 my-5 p-5 duration-300">
         {!datosAcordion ? (
           <h1>'Cargando'</h1>
         ) : (

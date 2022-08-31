@@ -18,6 +18,7 @@ export default function Layout() {
         <Preguntas/>
         <Contacto/>
       </main>
+     
      <Footer/>
     </div>
   );
