@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../views/Footer/Footer";
+import GaleriaNoticias from "../views/GaleriaActual/GaleriaNoticias";
 import Header from "../views/Header/Header";
 import Contacto from "../views/Secciones/Contacto";
 import Preguntas from "../views/Secciones/Preguntas";
@@ -12,6 +13,7 @@ export default function Layout() {
     <div className="flex flex-col items-center justify-between w-full mx-auto">
     <Header/>
       <main className="w-11/12 md:w-10/12 flex flex-col mx-auto font-roboto">
+        <GaleriaNoticias/>
     <Seccion1/>
        <Seccion2/>
        <Seccion3/>

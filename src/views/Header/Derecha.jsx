@@ -2,6 +2,7 @@ import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import "./derecha.css";
 import moon from "../../img/moon.svg";
+import quillalogo from "../../img/quillalogo.svg";
 import { loadFull } from "tsparticles";
 
 export default function Derecha() {
@@ -14,7 +15,7 @@ export default function Derecha() {
   );
 
   return (
-    <div className="md:w-3/6 derechaHeader bg-[#18191A] h-2/3 rounded-3xl md:h-full">
+    <div className="md:w-3/6 relative  bg-[#18191A] h-2/3 rounded-full  md:h-full">
       <Particles
       className="w-full h-full"
         init={particlesInit}
@@ -89,9 +90,9 @@ export default function Derecha() {
         }}
       />
       <img
-        src={moon}
+        src={quillalogo}
         alt="background"
-        className="absolute inset-1/2  md:left-2/4 md:top-1/3 -translate-x-20 w-40 md:w-80 rounded-full shadow-xl rotate-180"
+        className="absolute   md:left-32 md:top-24 -translate-x- w-40 md:w-80 rounded-full shadow-xl"
       />
     </div>
   );

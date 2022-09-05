@@ -11,14 +11,14 @@ export default function AcordionSingle({title,descripcion,className}) {
   return (
     <div
     className={`${className}
-    } w-full md:w-2/5 flex-auto  ${active?'border-blue-500/70 shadow-blue-500/50 shadow ':'border-neutral-700'} border  duration-150 overflow-hidden  p-5 rounded-lg`}
+    } w-full md:w-2/5 flex-auto  ${active?'border-blue-500/70 shadow-blue-500/50 shadow ':'border-neutral-700'} border hover:border-blue-500/70  duration-150 overflow-hidden  p-5 rounded-lg`}
   >
     <div
       onClick={handleDownBox}
       className="w-full flex items-center duration-300 cursor-pointer justify-between "
     >
       <TituloTarjetas
-        className={""}
+        className={`${active ? " text-blue-400" : ""}  duration-150`}
         title={title}
         key={4}
       />
