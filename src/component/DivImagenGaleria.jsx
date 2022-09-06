@@ -7,7 +7,7 @@ export default function DivImagenGaleria({classNameDiv,src,h2,descripcion,link})
     <img
       src={src}
       alt={h2}
-      className="w-full h-full grayscale-[80%] group-hover:object-cover object-cover object-center duration-1000 group-hover:grayscale-0 rounded-lg"/>
+      className="w-full h-full grayscale-[35%] group-hover:object-cover object-cover object-center duration-1000 group-hover:grayscale-0 rounded-lg"/>
     <div
       className="text-neutral-900 group-hover:w-full   bg-blue-600/70 p-2 -rotate-90 origin-top-left duration-300 text-center absolute bottom-0 left-0 
 group-hover:skew-x-0 group-hover:bg-gradient-to-b group-hover:from-blue-600/60 group-hover:via-blue-600/50 group-hover:to-red-400/30 group-hover:backdrop-bm group-hover:text-white group-hover:rotate-0  group-hover:duration-300

@@ -41,8 +41,8 @@ const Envolventes7=(props)=>{
 
 
 
-function IconCircle({toggle}) {
-  const [active,setActive]=useState(false)
+function IconCircle({className,colorFill}) {
+  const [active,setActive]=useState(true)
 
   window.addEventListener('scroll', ()=>{
       const scrollY=window.scrollY
@@ -51,18 +51,7 @@ if(scrollY>="1000"){
 }
 })
 
-useEffect(()=>{
-
-  window.addEventListener('scroll', ()=>{
-      const scrollY=window.scrollY
-      if(scrollY>=1800 && scrollY<=2500){
-  console.log(scrollY)
-  setActive(true)
-}else {
-  setActive(false)
-}
-})
-},[])   
+   
 
   const lines=[
     <Envolventes1 key="envolventes 1"/>,
@@ -106,14 +95,13 @@ const springs=useSprings(lines.length,
 
   return (
     <svg
-    className="-rotate-45 absolute left-20 -top-64"
+    className={`${className} `}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="100"
       height="100"
-      x="0"
-      y="0"
       viewBox="0 0 100 100"
+      fill={colorFill}
     >
       <g>
         <circle
@@ -121,7 +109,7 @@ const springs=useSprings(lines.length,
           cy="50"
           r="23.188"
           fill="none"
-          stroke="#FDBA74"
+          stroke={colorFill}
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeMiterlimit="10"
@@ -135,7 +123,7 @@ const springs=useSprings(lines.length,
         </clipPath>
         <g
           fill="none"
-          stroke="#FDBA74"
+          stroke={colorFill}
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeMiterlimit="10"

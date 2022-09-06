@@ -19,12 +19,8 @@ export default function Seccion2() {
       id={"funcion"}
       className={"py-10 md:h-screen relative items-center"}
     >
-        <button onClick={handleToggle}>toggle</button>
-        {/* <Icon
-        toggle={toggle}
-        className="absolute w-10"
        
-        /> */}
+      
  <div className='relative  w-full z-00 '>
     <div className={`${''}  absolute -z-10 `}>
         <IconCircle/>
